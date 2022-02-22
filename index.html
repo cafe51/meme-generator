@@ -13,10 +13,17 @@
     </header>
   <section id = inputs>
       Texto: <input type="text" id = text-input>
-      <br> <br>Foto: <input type="file" id=imagem-input accept="image/png, image/jpeg">
+      <br> <br>Foto: 
+      <div>
+        <input type="file" id=meme-insert accept='image/*'>
+      </div>
   </section>
   <section id = meme-image-container>
     <div id = meme-text></div>
+    <div id = meme-image>
+      <img id = image src='' alt="meme">
+    </div>
+    
   </section>   
   </body>
   <script src="script.js"></script>

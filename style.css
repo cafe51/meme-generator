@@ -2,14 +2,19 @@
   display: block;
 }
 
-#text-input {
+/* #text-input {
 }
 
 #imagem-input {
-  
-}
+} */
 
 #meme-text {
   font-size: 50px;
+  position: absolute;
 }
 
+#meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 600px;
+}
